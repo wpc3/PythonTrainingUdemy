@@ -22,3 +22,20 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
+
+left_or_right = str(input("left or right :) \n"))
+#color =  str(input("Pick a color any color... Actually red blue or white"))
+#weapon = input("What will you use to slay the monster guarding the treasure? sword, crossbow, fists")
+
+if left_or_right == "left":
+    color = str(input("Pick a color any color... Actually red blue or white \n"))
+    if color == "white":
+        weapon = input("What will you use to slay the monster guarding the treasure? sword, crossbow, fists \n")
+        if weapon == "fists":
+                print("Winner ! Winner ! Treasure is yours")
+        else:
+                print("Ohhh so close but the only way to beat this monster is not the solution you provided")
+    else:
+        print("game over! wrong choice buddy")
+else:
+    print("game over! never pick right")
