@@ -3,7 +3,13 @@ print(range(1, 10))
 
 max_score = 0
 
-for score in student_scores:
-    if score > max_score:
-        max_score = score
-print(max_score)
+# for score in student_scores:
+#     if score > max_score:
+#         max_score = score
+# print(max_score)
+
+answer = 0
+for number in range(1,101):
+    answer += number
+
+print(answer)
