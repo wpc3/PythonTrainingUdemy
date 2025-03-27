@@ -22,6 +22,9 @@ while auction_game:
     key_with_max_value = max(bidding_dictionary, key=bidding_dictionary.get)
     max_value = bidding_dictionary[key_with_max_value]
 
+    if adding_bidder_input == 'n':
+        auction_game = False
+        print(f"The winner is {key_with_max_value} with a bid of ${max_value}.")
 
 
 
