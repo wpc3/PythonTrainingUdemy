@@ -6,8 +6,8 @@ programming_dictionary = {"Bug": "An error in a program that prevents the progra
 
 programming_dictionary["Loop"] = "The action of doing something over and over again."
 
-# print(programming_dictionary)
+print(programming_dictionary.get())
 
-for thing in programming_dictionary:
-    # print(thing)
-    print(programming_dictionary[thing])
+# for thing in programming_dictionary:
+#     # print(thing)
+#     print(programming_dictionary[thing])
